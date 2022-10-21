@@ -17,7 +17,7 @@ export async function getStaticProps() {
 	return {
 		redirect: {
       destination: '/',
-      permanent: ture, // triggers 308
+      permanent: true, // triggers 308
     },
 	}
 }

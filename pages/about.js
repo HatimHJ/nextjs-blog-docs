@@ -13,11 +13,11 @@ export default function About() {
 	);
 }
 
-// export async function getStaticProps() {
-// 	return {
-// 		redirect: {
-//       destination: '/',
-//       permanent: true, // triggers 308
-//     },
-// 	}
-// }
+export async function getStaticProps() {
+	return {
+		redirect: {
+      destination: '/',
+      permanent: true, // triggers 308
+    },
+	}
+}

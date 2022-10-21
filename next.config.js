@@ -4,7 +4,7 @@ module.exports = {
       {
         source: '/about',
         destination: '/',
-        permanent: true, // triggers 308
+        permanent: false, // triggers 308
       },
     ];
   },

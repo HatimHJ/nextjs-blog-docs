@@ -1,29 +1,19 @@
 {
   "Post": {
     "cover": {
-      "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
+      "regexp": "https://picsum\\.photos/seed/[1-9]{3}/1920/1280"
     },
     "title": {
       "loremWords": {
-        "minLength": 5,
-        "maxLength": 20
+        "minLength": 15,
+        "maxLength": 30
       }
     },
     "body": {
       "loremParagraphs": {
-        "minLength": 10,
+        "minLength": 50,
         "maxLength": 100
       }
-    },
-    "tag": {
-      "string": [
-        "one",
-        "two",
-        "three"
-      ]
-    },
-    "isDraft": {
-      "boolean": {}
     },
     "createdAt": {
       "dateTime": {

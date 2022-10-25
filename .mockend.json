@@ -5,8 +5,8 @@
     },
     "title": {
       "loremWords": {
-        "minLength": 15,
-        "maxLength": 30
+        "minLength": 30,
+        "maxLength": 50
       }
     },
     "description": {
